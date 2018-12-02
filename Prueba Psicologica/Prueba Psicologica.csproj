@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F36ED026-3642-4248-BCCA-6E2C0D0FFB66}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Prueba_Psicologica</RootNamespace>
+    <AssemblyName>Prueba Psicologica</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>nux_top_center.9.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\Sistema Control de Almacen\Sistema Control de Almacen\bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cuestionario\Pregunta_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_1.Designer.cs">
+      <DependentUpon>Pregunta_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_10.Designer.cs">
+      <DependentUpon>Pregunta_10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_11.Designer.cs">
+      <DependentUpon>Pregunta_11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_12.Designer.cs">
+      <DependentUpon>Pregunta_12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_13.Designer.cs">
+      <DependentUpon>Pregunta_13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_14.Designer.cs">
+      <DependentUpon>Pregunta_14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_15.Designer.cs">
+      <DependentUpon>Pregunta_15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_16.Designer.cs">
+      <DependentUpon>Pregunta_16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_17.Designer.cs">
+      <DependentUpon>Pregunta_17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_18.Designer.cs">
+      <DependentUpon>Pregunta_18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_19.Designer.cs">
+      <DependentUpon>Pregunta_19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_2.Designer.cs">
+      <DependentUpon>Pregunta_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_20.Designer.cs">
+      <DependentUpon>Pregunta_20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_21.Designer.cs">
+      <DependentUpon>Pregunta_21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_22.Designer.cs">
+      <DependentUpon>Pregunta_22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_23.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_23.Designer.cs">
+      <DependentUpon>Pregunta_23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_24.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_24.Designer.cs">
+      <DependentUpon>Pregunta_24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_3.Designer.cs">
+      <DependentUpon>Pregunta_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_4.Designer.cs">
+      <DependentUpon>Pregunta_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_5.Designer.cs">
+      <DependentUpon>Pregunta_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_6.Designer.cs">
+      <DependentUpon>Pregunta_6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_7.Designer.cs">
+      <DependentUpon>Pregunta_7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_8.Designer.cs">
+      <DependentUpon>Pregunta_8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuestionario\Pregunta_9.Designer.cs">
+      <DependentUpon>Pregunta_9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulario\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje\A_un_paso_Del_Triunfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensaje\A_un_paso_Del_Triunfo.Designer.cs">
+      <DependentUpon>A_un_paso_Del_Triunfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje\El_mundo_a_sus_pies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensaje\El_mundo_a_sus_pies.Designer.cs">
+      <DependentUpon>El_mundo_a_sus_pies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje\Falta_de_Autoestima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensaje\Falta_de_Autoestima.Designer.cs">
+      <DependentUpon>Falta_de_Autoestima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje\Mensaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensaje\Mensaje.Designer.cs">
+      <DependentUpon>Mensaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje\Resultado_Final.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensaje\Resultado_Final.Designer.cs">
+      <DependentUpon>Resultado_Final.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mensaje\Timidez_e_Indecision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mensaje\Timidez_e_Indecision.Designer.cs">
+      <DependentUpon>Timidez_e_Indecision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cuestionario\Pregunta_1.resx">
+      <DependentUpon>Pregunta_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_10.resx">
+      <DependentUpon>Pregunta_10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_11.resx">
+      <DependentUpon>Pregunta_11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_12.resx">
+      <DependentUpon>Pregunta_12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_13.resx">
+      <DependentUpon>Pregunta_13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_14.resx">
+      <DependentUpon>Pregunta_14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_15.resx">
+      <DependentUpon>Pregunta_15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_16.resx">
+      <DependentUpon>Pregunta_16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_17.resx">
+      <DependentUpon>Pregunta_17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_18.resx">
+      <DependentUpon>Pregunta_18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_19.resx">
+      <DependentUpon>Pregunta_19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_2.resx">
+      <DependentUpon>Pregunta_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_20.resx">
+      <DependentUpon>Pregunta_20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_21.resx">
+      <DependentUpon>Pregunta_21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_22.resx">
+      <DependentUpon>Pregunta_22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_23.resx">
+      <DependentUpon>Pregunta_23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_24.resx">
+      <DependentUpon>Pregunta_24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_3.resx">
+      <DependentUpon>Pregunta_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_4.resx">
+      <DependentUpon>Pregunta_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_5.resx">
+      <DependentUpon>Pregunta_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_6.resx">
+      <DependentUpon>Pregunta_6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_7.resx">
+      <DependentUpon>Pregunta_7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_8.resx">
+      <DependentUpon>Pregunta_8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuestionario\Pregunta_9.resx">
+      <DependentUpon>Pregunta_9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensaje\A_un_paso_Del_Triunfo.resx">
+      <DependentUpon>A_un_paso_Del_Triunfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensaje\El_mundo_a_sus_pies.resx">
+      <DependentUpon>El_mundo_a_sus_pies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensaje\Falta_de_Autoestima.resx">
+      <DependentUpon>Falta_de_Autoestima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensaje\Mensaje.resx">
+      <DependentUpon>Mensaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensaje\Resultado_Final.resx">
+      <DependentUpon>Resultado_Final.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensaje\Timidez_e_Indecision.resx">
+      <DependentUpon>Timidez_e_Indecision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adjust_reset_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adjust_reset_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="nux_top_center.9.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
